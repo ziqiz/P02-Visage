@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Visage Style Guide</title>
+    <link href="css/main.css" rel="stylesheet">
+	<link href = "css/grid.css" rel = "stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <h1>Visage Style Guide </h1>
+    <nav>
+		<ul>
+		  <li><a href="#buttons">Buttons</a></li>
+		  <li><a href = "#form">Form</a></li>
+		  <li><a href = "#image">Image</a></li>
+		  <li><a href = "#text">Text</a></li>
+		  <li><a href = "#navigation">Navigation</a></li>
+		</ul>
+    </nav>
+    <!-- Try to ensure that each element has its own portion of the page -->
+    <section id="buttons">
+      <h2>Default Button Style</h2>
+      <h3>CSS selector:</h3>
+      <p>buttonLeft or buttonRight</p>
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#"&gt;&lt;div class = "buttonLeft"&gt;Default Button Left&lt;/div&gt;&lt;/a&gt;</code><br>
+	  <code>&lt;a href="#"&gt;&lt;div class = "buttonRight"&gt;Default Button Right&lt;/div&gt;&lt;/a&gt;</code>
+      <h3>Rendered element:</h3>
+      <a href="#"><div class = "buttonLeft">Default Button Left</div></a>
+	  <a href="#"><div class = "buttonRifht">Default Button Right</div></a>
+    </section>
+	
+	<section id="form">
+      <h2>Default Form Style</h2>
+      <h3>CSS selector:</h3>
+      <p>"div.input"</p>
+      <h3>Sample code:</h3>
+      <code>&lt;div&gt;First Name:&lt;input type = "text" size = "35" name = "firstName"&gt;&lt;/div&gt;</code>
+      <h3>Rendered element:</h3>
+      <div>First Name: <input type = "text" size = "35" name = "firstName"></div>
+    </section>
+	
+	<section id="image">
+      <h2>Default Image Style</h2>
+      <h3>CSS selector:</h3>
+      <p>img</p>
+      <h3>Sample code:</h3>
+      <code>&lt;img src = "img/logo.jpg" alt = "Visage's brand logo" width = "100" height = "100"&gt;</code>
+      <h3>Rendered element:</h3>
+      <img src = "img/logo.png" alt = "Visage's brand logo" width = "100" height = "100">
+    </section>
+	
+	<section id="text">
+      <h2>Default Text Style</h2>
+      <h3>CSS selector:</h3>
+      <p>sction.p</p>
+      <h3>Sample code:</h3>
+      <code>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;</code>
+      <h3>Rendered element:</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </section>
+	
+	<section id="navigation">
+	  <h2>Default Navigation Style</h2>
+	  <h3>CSS selector:</h3>
+	  <p>nav.ul.li</p>
+	  <h3>Sample code:</h3>
+	  <code>&lt;nav&gt;&lt;ul&gt;&lt;li&gt;&lt;a href = "#"&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;</code>
+	  <h3>Rendered element:</h3>
+	  <nav>
+		<ul>
+		  <li><a href="#">Home</a></li>
+		</ul>
+	   </nav>	
+    </section>
+  </body>
+</html>
