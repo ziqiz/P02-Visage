@@ -158,4 +158,13 @@ nav {
 							background-color: #0f1769;
 							color: #efeccd;
 						}
-			
+
+/*below is ziqi editted code*/
+
+ul.products li{
+	list-style-type: none;
+	width:200px;
+	display:inline-block;
+	vertical-align: top;
+	text-align: center;
+}
