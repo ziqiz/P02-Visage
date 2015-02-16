@@ -115,6 +115,7 @@ nav {
 		#siteSearch form a{
 			padding-left:0.5em;
 		} 
+		
 	nav ul{
 		margin:0;
 		padding:0;
@@ -135,35 +136,33 @@ nav {
 		}
 			nav ul li a {
 				display: inline-block;
+				width:100%;
+				padding-top: 1.5em;
+				padding-bottom: 1.5em;
+				text-align:center;
 				
 			}
-			nav ul li a:hover, na ul li a:active{
+			nav ul li:hover, na ul li:active{
 				color: #0f1769;
 				background-color: #efeccd;
 			}
 				nav ul ul{
-					padding:0;
 					display:none;
 					position:absolute;
 					bottom: 100%;
 					font-size: 0.8em;
-					background-color: #0f1769;
 				}
  					nav ul ul li {
+						display:block;
+						background-color: #0f1769;
+						color:#efeccd;
+						
 					} 
+					nav ul ul li:hover, na ul ul li:active{
+						color: #0f1769;
+						background-color: #efeccd;
+					}
 						nav ul ul li a{
-							padding: 1em 2.1em;
-							display:block;
-							background-color: #0f1769;
-							color: #efeccd;
 						}
 
 /*below is ziqi editted code*/
-
-ul.products li{
-	list-style-type: none;
-	width:200px;
-	display:inline-block;
-	vertical-align: top;
-	text-align: center;
-}
