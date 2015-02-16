@@ -110,13 +110,14 @@ nav {
 }
 	#siteSearch form{
 		display: inline-block;
-		padding: 1.5rem 2rem;
+		padding: 1.5em 2em;
 	}
 		#siteSearch form a{
 			padding-left:0.5em;
 		} 
 	nav ul{
 		margin:0;
+		padding:0;
 		display: inline-table;
 		position:relatve;
 
@@ -133,8 +134,6 @@ nav {
 			display: block;
 		}
 			nav ul li a {
-				text-align: center;
-				padding: 1.6rem 2rem;
 				display: inline-block;
 				
 			}
@@ -153,7 +152,7 @@ nav {
  					nav ul ul li {
 					} 
 						nav ul ul li a{
-							padding: 1rem 2.1rem;
+							padding: 1em 2.1em;
 							display:block;
 							background-color: #0f1769;
 							color: #efeccd;
