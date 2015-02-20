@@ -32,8 +32,8 @@
 .col-1of2{
 	width:50%;
 }
-.col-1of1{
-	width:100%;
+.col-1of10{
+	width:10%;
 }
 
 .grid:after{
