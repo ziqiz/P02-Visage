@@ -15,23 +15,51 @@
 		<p></p>
 	</header>
 	<div id = "wrapper">
-		<section>
+		<section id = "checkout">
 			<div class = "grid">	
-				<div class = "col-1of4">
+				<div class = "col-1of10">
 					<p></p>
 				</div>
 				<div class = 'col-3of4'>
 					<h2>payment</h2>
-					<h3>Shipping Info</h3>
-						<div>First Name: <input type = "text" name = "firstName"></div>
-						<div>Last Name: <input type = "text"  name = "lastName"></div>
-						<div>Phone Number: <input type = "text" name = "phoneNumber"></div>
-						<div>Email: <input type = "text" name = "email" ></div>
-						<div>Address<input type = "text" name = "address"></div>
-						<div>City<input type = "text" name = "city"></div>
-						<div>Province<input type = "text" name = "province"></div>
-						<div>Country<input type = "text" name = "country"></div>
-				
+					<div id = "checkoutProcessBar">
+						<div>Shipping + Billing</div>
+						<div>Payment</div>
+						<div>Confirmation</div>
+					</div>
+					<form>
+					<h3>payment information</h3>
+						<div class = "col-3of4">
+							<div>Payment type: 
+								<select>
+								  <option>Visa</option>
+								  <option>Master Card</option>
+								  <option>America Express</option>
+								</select>
+							</div>
+							<div>Card number: <input type = "text"  name = "cardNum"></div>
+							<div>Expire date: Month:
+								<select>
+								  <option>Jan</option>
+								  <option>Feb</option>
+								  <option>Mar</option>
+								  <option>Apr</option>
+								  <option>May</option>
+								  <option>Jun</option>
+								  <option>Jul</option>
+								  <option>Aug</option>
+								  <option>Sep</option>
+								  <option>Oct</option>
+								  <option>Nov</option>
+								  <option>Dec</option>
+								</select>
+								Year: <input type = "text" name = "year" maxlength = "4" >
+							</div>
+							<div>SCN: <input type = "text" name = "scn" maxlength = "3"></div>
+						</div>
+					</form>
+						<div class = "col-1of2"><div class = "buttonLeft"><a href = "shopShipBillInfo.html">go back</a></div></div>
+						<div class = "col-1of2"><div class = "buttonRight"><a href = "shopConfirmation.html">Next</a></div></div>
 				</div>
 			</div>
 			<!-- <div class = "gird">
