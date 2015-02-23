@@ -118,10 +118,12 @@ nav {
 }
 	#siteSearch form{
 		display: inline-block;
-		padding: 1.5em 2em;
+		padding: 1.5em 1em;
 	}
-		#siteSearch form a{
-			padding-left:0.5em;
+		#siteSearch div{
+			display:inline-block;
+			font-size:0.6em;
+			
 		} 
 		
 	nav ul{

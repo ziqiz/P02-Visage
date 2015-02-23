@@ -28,7 +28,7 @@
 						<div>Confirmation</div>
 					</div>
 					<form>
-						<div class = "col-2of3">
+						<div class = "col-1of2">
 							<h3>Shipping Information</h3>
 								<div>First Name: <input type = "text" name = "firstName"></div>
 								<div>Last Name: <input type = "text"  name = "lastName"></div>
@@ -39,7 +39,7 @@
 								<div>Province:<input type = "text" name = "province"></div>
 								<div>Country:<input type = "text" name = "country"></div>
 						</div>
-						<div class = "col-2of3">
+						<div class = "col-1of2">
 							<h3>Billing Information </h3>
 								<div id = "sameAsShipping">Same as shipping<input type="checkbox" name="billing" value="SameAsShipping"></div>
 								<div>Full Name: <input type = "text" name = "firstName"></div>
@@ -63,11 +63,13 @@
 	<nav class = "grid">
 	
 		<div>
-			<div id = "siteSearch">
-				<form class = "col-1of2">
-					<input type = "search" name = "siteSearch" size = "40" placeholder = "What are you looking for?">
+			<div id = "siteSearch" class = "col-1of2">
+				<form>
+					<input type = "search" name = "siteSearch" value = "What are you looking for?">
 					<a href = "#"><img src = "img/searchIcon.png" alt = "search bar icon"width = "15" height = "15"></a>
 				</form>
+				<div><a href = "shopAccount.html">sign in/ register</a></div>
+				<div><a href = "shopShoppingCart.html">shopping bag</a></div>
 			</div>
 				<ul class = "col-1of2">
 					<li class = "col-1of5"><a href="index.html">Home</a></li>
