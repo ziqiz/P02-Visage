@@ -45,9 +45,13 @@
 	.col-1of2{
 		width:100%;
 	}
+	.col-1of4, .col-1of10, .col-1of5{
+		width:50%;
+	}
+	
 }
 @media(max-width: 30em){
-	.col-1of5{
+	.col-1of5, .col-1of4{
 		width:100%;
 	}
 
