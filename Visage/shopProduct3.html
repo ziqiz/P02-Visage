@@ -5,6 +5,7 @@
     <title>Visage Official Online Store & Blog</title>
     <link href="css/main.css" rel="stylesheet">
 	<link href = "css/grid.css" rel = "stylesheet">
+	<!--<link href = "css/shopProduct.css" rel = "stylesheet">-->
 	<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
   </head>
   <body>
@@ -15,31 +16,38 @@
 		<p></p>
 	</header>
 	<div id = "wrapper">
-		<section id = "checkout">
-			<div class = "grid">	
-				<div class = "col-1of10">
-					<p></p>
-				</div>
-				<div class = 'col-3of4'>
-					<h2>Sign In / Register</h2>
-					<form>
-						<div class = "col-1of2">
-							<h3>Sign In</h3>
-							<div>Email: <input type = "text"  name = "userName"></div>
-							<div>Password: <input type = "password"  name = "password"></div>
-							<a href = "shopShipBillInfo.html"><div class = "buttonRight">Sign In</div></a>
-						</div>
-						<div class = "col-1of2">
-							<h3>Register</h3>
-							<div>Email: <input type = "text"  name = "userName"></div>
-							<div>Password: <input type = "password"  name = "password"></div>
-							<a href = "shopShipBillInfo.html"><div class = "buttonRight">Register</div></a>
-						</div>
-					</form>
-				</div>
+		
+		<div class = "grid">	
+			<div id = "sideNav" class = "col-1of5">
+				<h4>category list menu</h4>
+					<ul>
+						<a href = "#"><li>face</li></a>
+						<a href = "#"><li>eye</li></a>
+							<ul>
+								<a href = "#"><li>Eye Shadow</li></a>
+								<a href = "#"><li>Eye Primer</li></a>
+								<a href = "#"><li>Mascara</li></a>
+								<a href = "#"><li>Eye Liner</li></a>
+								<a href = "#"><li class = "current">Eye Cream</li></a>
+								<a href = "#"><li>Eye Serium</li></a>
+							</ul>
+						<a href = "#"><li>lips</li></a>
+						<a href = "#"><li>accessories</li></a>
+						<a href = "#"><li>beauty tools</li></a>
+					</ul>
+				<h4>brand list menu</h4>
+				<h4>price list menu</h4>
 			</div>
-			<a href = "shopQA.html"><div id = "help">Need Help?</div></a> 
-		</section>
+			<div id = "product" class = 'col-3of4'>
+				<h2>Health Olluminate Intense Eye Repair</h2>
+				<img src="http://placehold.it/200x250">
+				<div>Price: &#36;130.00</div>
+				<p>Introducing the Health Olluminate Intense Eye Repair. Perfect for SIAT students who always stay up late for their assignments and have serious dark circles. 
+				Do you have this problem? Then this product is for you!</p>
+				<a href = "shopShoppingCart.html"><div class = "buttonRight">add to cart</div></a>
+			</div>
+		</div>
+		<a href = "shopQA.html"><div id = "help">Need Help?</div></a> 
 	</div>
 	<nav class = "grid">
 	

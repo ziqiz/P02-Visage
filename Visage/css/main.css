@@ -89,10 +89,10 @@ section{
 	#checkout form div{
 		padding: 1em;
 	}
-		#checkout form input {
+		#checkout form select, #checkout form input {
 			float: right;
 		}
-		#checkout form input:after{
+		#checkout form select:after, #checkout form input:after{
 			clear:both;
 		}
 		#help{
@@ -104,7 +104,7 @@ section{
 			bottom: 10em;
 			font-size: 0.8em;
 		}
-		#help:hover, #helo:active{
+		#help:hover, #help:active{
 			background-color: #efeccd;
 			color:#0f1769;
 		
@@ -223,14 +223,44 @@ nav {
 		color: #0f1769;
 	}
 	#sideNav .current{
-		font-size:1.5em;
+		font-weight:bold;
 	
 	}
 
 #productList{
-	padding: 0 2rem;
+	padding: 0 2em;
+}
+	#productList div{
+		padding-bottom: 2em;
+	}
+
+#product{
+	padding: 0 2em;
+
+}
+	#product form{
+		padding-top: 4em;
+	
+	}
+
+#direction{
+	font-size:0.8em;
+	color: #bbb;
+	
 
 }
 
-
-/*below is ziqi editted code*/
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}

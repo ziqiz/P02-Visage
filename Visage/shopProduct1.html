@@ -5,6 +5,7 @@
     <title>Visage Official Online Store & Blog</title>
     <link href="css/main.css" rel="stylesheet">
 	<link href = "css/grid.css" rel = "stylesheet">
+	<!--<link href = "css/shopProduct.css" rel = "stylesheet">-->
 	<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
   </head>
   <body>
@@ -15,9 +16,9 @@
 		<p></p>
 	</header>
 	<div id = "wrapper">
-		<section>
-			<div class = "grid">	
-				<div id = "sideNav" class = "col-1of5">
+		
+		<div class = "grid">	
+			<div id = "sideNav" class = "col-1of5">
 					<h4>category list menu</h4>
 					<ul>
 						<a href = "#"><li>Face</li></a>
@@ -38,87 +39,37 @@
 						<a href = "#"><li>24.99 to 54.99</li></a>
 						<a href = "#"><li>54.99 and above</li></a>
 					</ul>
-				</div>
-
-			<!--below is ziqi editted code--> 
-			<!--question? what is the block of logo part? why it is only taking up the upper left corner? Products cannot line up because of that-->
-				<div id = "productList" class= "col-3of4">
-					<div id = "sort">Sort by: <select>
-									  <option>Best Selling</option>
-									  <option>Price</option>
-									  <option>Rate</option>
-									</select>
-					</div>
-					<div class = "col-1of4">
-						<a href='shopProduct1.html'>
-							<img src = 'http://placehold.it/200x250'>
-						<h4>Health Intense Eye Repair</h4></a>
-						<p>Reduces dark circles</p>
-						<p>&#36;130.00</p>
-					</div>
-					
-					<div class = "col-1of4">
-						<a href='shopProduct2.html'>
-							<img src = 'http://placehold.it/200x250'>
-						<h4> Stress Relief Eye Mask </h4></a>
-						<p>10 mins for undereye.</p>
-						<p>40.00</p>
-					</div>
-					<div class = "col-1of4">
-						<a href='shopProduct3.html'>
-							<img src = 'http://placehold.it/200x250'>
-						<h4> Advanced Night Repair </h4></a>
-						<p>Fight eye aging</p>
-						<p>58.00</p>
-					</div>
-					<div class = "col-1of4">
-						<a href='shopProduct.html'>
-							<img src = 'http://placehold.it/200x250'>
-						</a>
-						<h4> Nature Hand Cream </h4>
-						<p>Brief description of the product.</p>
-						<p>20.00</p>
-					</div>
-					<div  class = "col-1of4">
-						<a href='shopProduct.html'>
-							<img src = 'http://placehold.it/200x250'>
-						</a>
-						<h4> Nature Hand Cream </h4>
-						<p>Brief description of the product.</p>
-						<p>20.00</p>
-					</div>
-					
-					<div class = "col-1of4">
-						<a href='shopProduct.html'>
-							<img src = 'http://placehold.it/200x250'>
-						</a>
-						<h4> Nature Hand Cream </h4>
-						<p>Brief description of the product.</p>
-						<p>20.00</p>
-					</div>
-					
-					<div class = "col-1of4">
-						<a href='shopProduct.html'>
-							<img src = 'http://placehold.it/200x250'>
-						</a>
-						<h4> Nature Hand Cream </h4>
-						<p>Brief description of the product.</p>
-						<p>20.00</p>
-					</div>
-					<div class = "col-1of4">
-						<a href='shopProduct.html'>
-							<img src = 'http://placehold.it/200x250'>
-						</a>
-						<h4> Nature Hand Cream </h4>
-						<p>Brief description of the product.</p>
-						<p>20.00</p>
-					</div>
-				</div>
-			<!--above is ziqi editted code-->
 			</div>
-			<a href = "shopQA.html"><div id = "help">Need Help?</div></a> 
-		</section>
-		
+			<div id = "product" class = 'col-3of4'>
+				<div id = "direction">Brand A 
+					&gt;&gt; 
+					Eye &gt;&gt; 
+					Eye Creme &gt;&gt; 
+					Olluminate Eye Repair
+				</div>
+				<h2>Health Olluminate Intense Eye Repair</h2>
+				<img src="http://placehold.it/200x250">
+				<div>Price: &#36;130.00</div>
+				<div>Reviews: <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> (10)</div>
+				<p>Introducing the Health Olluminate Intense Eye Repair. Perfect for SIAT students who always stay up late for their assignments and have serious dark circles. 
+				Do you have this problem? Then this product is for you!</p>
+				<a href = "shopShoppingCart.html"><div class = "buttonRight">add to cart</div></a>
+				
+				<form>
+				<h3>Reviews</h3>
+					<div>Rate:
+						<div class="rating">
+							<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+						</div>
+					</div>
+					<div>Comments: </div>
+					<textarea name="comments" rows="10" cols="100">Share you thoughts about this product!</textarea>
+					<a href = "shopShoppingCart.html"><div class = "buttonRight">submit</div></a>
+				</form>
+			</div>
+		</div>
+		<a href = "shopQA.html"><div id = "help">Need Help?</div></a> 
+	</div>
 	<nav class = "grid">
 	
 		<div>
