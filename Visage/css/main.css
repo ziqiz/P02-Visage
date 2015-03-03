@@ -3,8 +3,8 @@
 
 }
 @font-face {
-    font-family: brandFont;
-    src: url(font/basictitlefont.ttf) format(truetype);
+    font-family: 'brandFont';
+    src: url('font/basictitlefont.ttf') format('truetype');
 	font-style:normal;
 	font-weight:normal;
 }
@@ -79,8 +79,8 @@ section{
 		color: #0f1769;
 		background-color: #efeccd;
 	}
-	#checkout form{
-		border-top:1px solid black;
+	#checkoutProcessBar{
+		border-bottom:1px solid black;
 		
 	}
 	#checkout form h3{

@@ -24,7 +24,7 @@
 	width:33.33%;
 }
 .col-2of3{
-	width:45%;
+	width:66.66%;
 } 
 .col-4of4{
 	width:75%;
@@ -41,14 +41,27 @@
 	display:block;
 	clear:both;
 }
-@media(max-width:50em){
-	.col-1of2{
+@media(max-width:960px){
+	.col-1of2, .col-3of4{
 		width:100%;
 	}
-	.col-1of4, .col-1of10, .col-1of5{
+	
+	.col-1of10, .col-1of5 {
 		width:50%;
 	}
+	.col-1of4{
+		width: 33.33%;
+	}
+	nav ul ul{
+		display:none;
+	}
 	
+}
+@media(max-width:680px){
+	.col-1of4{
+		width:50%;
+	}
+
 }
 @media(max-width: 30em){
 	.col-1of5, .col-1of4{
