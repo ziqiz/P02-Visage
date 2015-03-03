@@ -44,6 +44,7 @@
 @media(max-width:960px){
 	.col-1of2, .col-3of4{
 		width:100%;
+		
 	}
 	
 	.col-1of10, .col-1of5 {

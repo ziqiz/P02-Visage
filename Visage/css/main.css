@@ -18,13 +18,17 @@ body {
 	max-height:100%;
 	list-style:none;
 }
-h1, h2, h3, h4{
+h1, h2, h3{
 	font-family: brandFont, 'Abel', serif;
 
 
 }
+h4{
+	font-weight:normal;
 
-a:active, a:hover{
+}
+
+a:active, a:hover, h4:hover, h4:active{
 	font-weight:bold;
 }
 
