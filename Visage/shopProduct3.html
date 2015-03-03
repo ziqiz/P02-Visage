@@ -19,32 +19,60 @@
 		
 		<div class = "grid">	
 			<div id = "sideNav" class = "col-1of5">
-				<h4>category list menu</h4>
+					<h4>category list menu</h4>
 					<ul>
-						<a href = "#"><li>face</li></a>
-						<a href = "#"><li>eye</li></a>
-							<ul>
-								<a href = "#"><li>Eye Shadow</li></a>
-								<a href = "#"><li>Eye Primer</li></a>
-								<a href = "#"><li>Mascara</li></a>
-								<a href = "#"><li>Eye Liner</li></a>
-								<a href = "#"><li class = "current">Eye Cream</li></a>
-								<a href = "#"><li>Eye Serium</li></a>
-							</ul>
-						<a href = "#"><li>lips</li></a>
-						<a href = "#"><li>accessories</li></a>
-						<a href = "#"><li>beauty tools</li></a>
+						<a href = "#"><li>Face</li></a>
+						<a href = "#"><li class = "current">Eye</li></a>
+						<a href = "#"><li>Lips</li></a>
+						<a href = "#"><li>Accessories</li></a>
+						<a href = "#"><li>Beauty tools</li></a>
 					</ul>
-				<h4>brand list menu</h4>
-				<h4>price list menu</h4>
+					<h4>brand list menu</h4>
+					<ul>
+						<a href = "#"><li>Brand a</li></a>
+						<a href = "#"><li>Brand b</li></a>
+						<a href = "#"><li>Brand c</li></a>
+					</ul>
+					<h4>price list menu</h4>
+					<ul>
+						<a href = "#"><li>0 to 24.99</li></a>
+						<a href = "#"><li>24.99 to 54.99</li></a>
+						<a href = "#"><li>54.99 and above</li></a>
+					</ul>
 			</div>
 			<div id = "product" class = 'col-3of4'>
-				<h2>Health Olluminate Intense Eye Repair</h2>
-				<img src="http://placehold.it/200x250">
-				<div>Price: &#36;130.00</div>
-				<p>Introducing the Health Olluminate Intense Eye Repair. Perfect for SIAT students who always stay up late for their assignments and have serious dark circles. 
-				Do you have this problem? Then this product is for you!</p>
+				<div id = "direction">Brand B 
+					&gt;&gt; 
+					Eye &gt;&gt; 
+					Eye Creme &gt;&gt; 
+					Advanced Night Repair
+				</div>
+				<h2>Advanced Night Repair Eye Synchronized Complex II</h2>
+				<img src="img/product3.jpg">
 				<a href = "shopShoppingCart.html"><div class = "buttonRight">add to cart</div></a>
+				<h3>Brand:</h3><div> Estee Lauder</div>
+				<h3>Price</h3><div> &#36;58.00</div>
+				<h3>Rating</h3><div><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> (10)</div>
+	
+				<section>
+					<h3>discription</h3>
+					<p>Inspired by groundbreaking DNA research, Estée Lauder revolutionizes eye repair so you’ll see a reduction in the look of every key sign of aging around eyes. Use this age-defying formula and help continuously repair the appearance of past damage caused by every major environmental assault. Exclusive Chronolux™ Technology synchronizes to skin's needs to help support the optimal performance of its natural repair and protective processes, leaving eyes looking radiant, more rested, and revitalized.</p>
+				</section>
+				<section>
+					<h3>Ingredients</h3>
+					<p>Water\Aqua\Eau, Bifida Ferment Lysate, Caprylic/Capric Triglyceride, Dimethicone, Nylon-12, Cetyl Ricinoleate, Propanediol, BIS-PEG-18 Methyl Ether Dimethyl Silane, Glycerin, Trehalose, Algae Extract, Morus Bombycis (Mulberry) Root Extract, Scutellaria Baicalensis Root Extract, Lactobacillus Ferment, Triticum Vulgare (Wheat) Germ Extract, Betula Alba (Birch) Extract, Hydrolyzed Algin, Poria Cocos Sclerotium Extract, Glycine Soja (Soybean) Seed Extract, Sucrose, Yeast Extract\Faex\Extrait De Levure, Hydrogenated Lecithin, Hordeum Vulgare (Barley) Extract\Extrait D'orge, Cholesterol, Anthemis Nobilis (Chamomile), Tocopheryl Acetate, Sodium RNA, Tromethamine, Caffeine, Caprylyl Glycol, Oleth-10, Phytosphingosine, Squalane, Ammonium Acryloyldimethyltaurate/VP Copolymer, Potassium Sulfate, Biosaccharide Gum – 1, Lecithin, Sodium Hyaluronate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Sodium Acrylates/Acrylonitrogens Copolymer, Hexylene Glycol, Sodium Metabisulfite, Aminopropyl Ascorbyl Phosphate, Tripeptide-32, Butylene Glycol, Sodium Sulfite, Disodium EDTA, BHT, Phenoxyethanol, Mica, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491, Ci 77492, Ci 77499)</p>
+				</section>
+				<section>
+				<h3>Reviews</h3>
+					<div>Rate:
+						<div class="rating">
+							<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+						</div>
+					</div>
+					<div>Comments: </div>
+					<textarea name="comments" rows="10" cols="100">Share you thoughts about this product!</textarea>
+					<a href = "shopShoppingCart.html"><div class = "buttonRight">submit</div></a>
+				</section>
 			</div>
 		</div>
 		<a href = "shopQA.html"><div id = "help">Need Help?</div></a> 
@@ -65,9 +93,9 @@
 					<li class = "col-1of5"><a href="index.html">Home</a></li>
 					<li class = "col-1of5"><a href="shop.html">Shop</a>
 						<ul>
-							<li><a href = "shop.html">shop by look</a></li>
+							<li><a href = "lookbook.html">shop by look</a></li>
 							<li><a href = "shop.html">shop by category</a></li>
-							<li><a href = "shop.html">shop by brand</a></li>
+							<li><a href = "shopBrand.html">shop by brand</a></li>
 						</ul>
 					</li>
 					<li class = "col-1of5"><a href="blog.html">Blog</a>

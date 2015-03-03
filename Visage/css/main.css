@@ -124,6 +124,7 @@ section{
 		color:#0f1769;
 	
 	} 
+
 .buttonLeft{
 	float:left;
 }
@@ -213,6 +214,11 @@ nav {
 						nav ul ul li a{
 							width:100%;
 						}
+section img{
+	width:100%;
+	height:auto;
+
+}
 #sideNav{
 	border:1px solid #ccc;
 	padding: 1em;
@@ -228,7 +234,7 @@ nav {
 	}
 
 #productList{
-	padding: 0 2em;
+	padding: 0 1em;
 }
 	#productList div{
 		padding-bottom: 2em;
@@ -238,10 +244,6 @@ nav {
 	padding: 0 2em;
 
 }
-	#product form{
-		padding-top: 4em;
-	
-	}
 
 #direction{
 	font-size:0.8em;
@@ -249,7 +251,16 @@ nav {
 	
 
 }
-
+#shoppingCart div{
+}
+	#shoppingCart div div{
+		margin-bottom: 2em;
+	
+	}
+	#shoppingCart div input{
+		margin-bottom: 2.5em;
+	
+	}
 .rating {
   unicode-bidi: bidi-override;
   direction: rtl;
