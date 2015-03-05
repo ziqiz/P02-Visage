@@ -11,19 +11,34 @@
 	<header>
 	
 		<a href = "index.html"><img src = "img/logo.png" alt = "Visage's brand logo" width = "100" height = "100"></a>
-		<h1>Visage</h1></a>
+		<h1>Visage</h1>
+		<p></p>
 	</header>
 	<div id = "wrapper">
-		<section>
+		<div>
 			<div class = "grid">	
 				<div class = "col-1of10">
 					<p></p>
 				</div>
-				<section class = "col-3of4">
-					<a href = "shopList.html"><img src = "img/1.jpg"></a>
-				</section>
+				<div class = 'col-3of4'>
+					<div id = "direction"><a href = "blog.html">Blog</a>
+						&gt; 
+						<a href = "blogTutorial.html">Event</a> &gt;
+						Win Favorites
+					</div>
+					<div class = "blogPost">
+						<h2>Win It! My Luxury Favorites (350 dollars in prizes)!</h2>
+						<img src = "http://www.temptalia.com/wp-content/uploads/2015/01/ebates_luxurygiveaway.jpg">
+						<p>It’s Luxury Week at Ebates!  What better way to celebrate than partnering with Ebates to give away some of my all-time favorite luxury beauty indulgences.   If you haven’t joined Ebates, now’s a great time to join — it’s free to join and free to use. The way Ebates works is you sign-up, and when you shop with Ebates, you can get a percentage of your order total in the form of cash back. They’ll send you a check or pay you via PayPal each quarter! For instance, if you shop at Sephora and spend $50 today, you’ll get $4 in cash back!</p>
+					</div>
+					<a href = "blogPost1.html"><div class = "buttonLeft">Privous Post</div></a>
+					<a href = "blogPost3.html"><div class = "buttonRight">Next Post</div></a>
+				</div>
 			</div>
-		</section>
+			<!-- <div class = "gird">
+				
+			</div> -->
+		</div>
 	</div>
 	<nav class = "grid">
 	
@@ -31,7 +46,7 @@
 			<div id = "siteSearch" class = "col-1of2">
 				<form>
 					<input type = "search" name = "siteSearch" value = "What are you looking for?">
-					<a href = "#"><img src = "img/searchIcon.png" alt = "search bar icon" width = "15" height = "15"></a>
+					<a href = "#"><img src = "img/searchIcon.png" alt = "search bar icon"width = "15" height = "15"></a>
 				</form>
 				<div><a href = "shopAccount.html">sign in</a></div>
 				<div><a href = "shopAccount.html">register</a></div>
@@ -54,9 +69,12 @@
 					</li>
 					<li class = "col-1of5"><a href="lookbook.html">Lookbook</a></li>
 					<li class = "col-1of5"><a href="info.html">Info</a>
+					
 					</li>
 				</ul>
 		</div>
 	</nav>
+	<script src = "js/jquery.js"></script>
+	<script src = "js/mobileContent.js"></script>
   </body>
 </html>

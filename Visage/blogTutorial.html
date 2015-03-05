@@ -10,36 +10,37 @@
   <body>
 	<header>
 	
-		<img src = "img/logo.png" alt = "Visage's brand logo" width = "100" height = "100">
+		<a href = "index.html"><img src = "img/logo.png" alt = "Visage's brand logo" width = "100" height = "100"></a>
 		<h1>Visage</h1>
 		<p></p>
 	</header>
 	<div id = "wrapper">
 		<div>
 			<div class = "grid">	
-				<div class = "col-1of4">
-					<p>tutorial list menu</p>
+				<div id = "sideNav" class = "col-1of5">
+					<h3>blog</h3>
+					<ul>
+						<a href = "blogEvent.html"><li>Event</li></a>
+						<a href = "blogTutorial.html"><li>Tutorial</li></a>
+					</ul>
+					
 				</div>
 				<div class = 'col-3of4'>
 					<div class = "blogPost">
-						<h2>tutorial post 1</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis ultrices risus. Cras id diam blandit erat suscipit condimentum eu ut nulla. 
-						Nam ante dui, volutpat a orci at, lacinia fringilla tortor. 
-						Sed in lectus in velit tempor interdum. Duis sapien odio, convallis faucibus imperdiet eu, ultricies sed ante. Aliquam erat volutpat. Nam eget ex non justo euismod fermentum in suscipit ipsum. 
-						Nullam in ipsum aliquet, lobortis lectus vel, consequat ipsum.</p>
+						<h2>Look: Starting the New Year with Smoky Eyes + Dazzling Lips</h2>
+						<img src = "http://www.temptalia.com/wp-content/uploads/2015/01/look_jan2014nordstrom008.jpg" width = "50%" height = "50%">
+						<p>The beginning of the new year is always an optimistic time for me where everything just seems brighter, and I always feel renewed as a result! When Nordstrom reached out to work with me to create a look, those feelings inspired me to use different textures and finishes to brighten and add dimension to each feature. I went for a glittery, smoky eye with a pop of teal (you know me, when there’s a way to incorporate teal eyeliner, there’s no stopping me) paired with more neutral, subtle colors on cheeks and lips. You could easily make the look more dramatic by going for a deeper contour or substituting in a berry or plum blush. Similarly, any pop of color (or even a metallic silver!) would pair well with the eyeshadow colors, but I’m partial to teal, blue, and violet. If you want to be even more daring, try a plum or reddish lip instead; with the sparkle and lighter inner corner, it’s not a heavy smoky eye, and deeper lip colors could definitely pair with this look.</p>
+						<a href = "blogPost3.html">continue reading</a>
 					</div>
 					
 					<div class = "blogPost">
-						<h2>tutorial post 2</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis ultrices risus. Cras id diam blandit erat suscipit condimentum eu ut nulla. 
-						Nam ante dui, volutpat a orci at, lacinia fringilla tortor. 
-						Sed in lectus in velit tempor interdum. Duis sapien odio, convallis faucibus imperdiet eu, ultricies sed ante. Aliquam erat volutpat. Nam eget ex non justo euismod fermentum in suscipit ipsum. 
-						Nullam in ipsum aliquet, lobortis lectus vel, consequat ipsum.</p>
+						<h2>Look: Warm Neutrals & Glossy Red Lips for Christmas Day</h2>
+						<img src = "http://www.temptalia.com/wp-content/uploads/2014/12/look_12252014003.jpg" width = "50%" height = "50%">
+						<p>I’ve grown so accustomed to having different eyeshadows on each eye that whenever I apply the same eyeshadows on each eye, I’m a bit taken aback by how it looks to match! I can’t say I wasn’t testing anything on Christmas (namely, the eyeshadows), but I did bring out some of my all-time favorites. </p>
+						<a href = "blogPost4.html">continue reading</a>
 					</div>
-				
-						<iframe width = "420" height = "315" src="http://youtu.be/Wc26PF3UQds"></iframe>
-				
 				</div>
+				
 			</div>
 			<!-- <div class = "gird">
 				
@@ -49,19 +50,22 @@
 	<nav class = "grid">
 	
 		<div>
-			<div id = "siteSearch">
-				<form class = "col-1of2">
-					<input type = "search" name = "siteSearch" size = "40" placeholder = "What are you looking for?">
+			<div id = "siteSearch" class = "col-1of2">
+				<form>
+					<input type = "search" name = "siteSearch" value = "What are you looking for?">
 					<a href = "#"><img src = "img/searchIcon.png" alt = "search bar icon"width = "15" height = "15"></a>
 				</form>
+				<div><a href = "shopAccount.html">sign in</a></div>
+				<div><a href = "shopAccount.html">register</a></div>
+				<div><a href = "shopShoppingCart.html">shopping cart</a></div>
 			</div>
 				<ul class = "col-1of2">
 					<li class = "col-1of5"><a href="index.html">Home</a></li>
 					<li class = "col-1of5"><a href="shop.html">Shop</a>
 						<ul>
-							<li><a href = "shop.html">shop by look</a></li>
+							<li><a href = "lookbook.html">shop by look</a></li>
 							<li><a href = "shop.html">shop by category</a></li>
-							<li><a href = "shop.html">shop by brand</a></li>
+							<li><a href = "shopBrand.html">shop by brand</a></li>
 						</ul>
 					</li>
 					<li class = "col-1of5"><a href="blog.html">Blog</a>
@@ -72,14 +76,12 @@
 					</li>
 					<li class = "col-1of5"><a href="lookbook.html">Lookbook</a></li>
 					<li class = "col-1of5"><a href="info.html">Info</a>
-						<ul>
-							<li><a href = "infoContact.html">contact</a></li>
-							<li><a href = "infoLocation.html">location</a></li>
-							<li><a href = "infoCareer.html">career</a></li>
-						</ul>
+						
 					</li>
 				</ul>
 		</div>
 	</nav>
+	<script src = "js/jquery.js"></script>
+	<script src = "js/mobileContent.js"></script>
   </body>
 </html>

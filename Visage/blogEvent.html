@@ -10,34 +10,45 @@
   <body>
 	<header>
 	
-		<img src = "img/logo.png" alt = "Visage's brand logo" width = "100" height = "100">
+		<a href = "index.html"><img src = "img/logo.png" alt = "Visage's brand logo" width = "100" height = "100"></a>
 		<h1>Visage</h1>
 		<p></p>
 	</header>
 	<div id = "wrapper">
 		<div>
 			<div class = "grid">	
-				<div class = "col-1of4">
-					<p>event list menu</p>
+				<div id = "sideNav" class = "col-1of5">
+					<h3>blog</h3>
+					<ul>
+						<a href = "blogEvent.html"><li>Event</li></a>
+						<a href = "blogTutorial.html"><li>Tutorial</li></a>
+					</ul>
+					
 				</div>
 				<div class = 'col-3of4'>
 					<div class = "blogPost">
-						<h2>event post 1</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis ultrices risus. Cras id diam blandit erat suscipit condimentum eu ut nulla. 
-						Nam ante dui, volutpat a orci at, lacinia fringilla tortor. 
-						Sed in lectus in velit tempor interdum. Duis sapien odio, convallis faucibus imperdiet eu, ultricies sed ante. Aliquam erat volutpat. Nam eget ex non justo euismod fermentum in suscipit ipsum. 
-						Nullam in ipsum aliquet, lobortis lectus vel, consequat ipsum.</p>
+						<h2>Bobbi Brown Hot Collection for Spring 2015</h2>
+						<img src = "http://www.temptalia.com/wp-content/uploads/2015/02/spring2015_bobbibrownhot001.jpg" width = "50%" height = "50%">
+						<p>Bobbi Brown and Kate Upton team up to bring you the Hot Collection, with this season’s must-have items for looking and feeling confident. Inspired by Kate’s hometown in Florida, this collection pairs subtle nudes with pops of head-turning color. Think the warm nudes of the beachfront and the bright lights of Miami. Fun, effortless and vibrant, Bobbi carefully selected each shade and product in the collection to reflect Kate’s playful, beach-ready lifestyle. Pair a well-defined nude eye with a high-voltage lip for a look that channels hot summer days, sexy summer nights and Kate’s easy confidence.</p>
+						<a href = "blogPost1.html">continue reading</a>
 					</div>
 					
 					<div class = "blogPost">
-						<h2>event post 2</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis ultrices risus. Cras id diam blandit erat suscipit condimentum eu ut nulla. 
-						Nam ante dui, volutpat a orci at, lacinia fringilla tortor. 
-						Sed in lectus in velit tempor interdum. Duis sapien odio, convallis faucibus imperdiet eu, ultricies sed ante. Aliquam erat volutpat. Nam eget ex non justo euismod fermentum in suscipit ipsum. 
-						Nullam in ipsum aliquet, lobortis lectus vel, consequat ipsum.</p>
+						<h2>Win It! My Luxury Favorites ($350 in prizes)!</h2>
+						<img src = "http://www.temptalia.com/wp-content/uploads/2015/01/ebates_luxurygiveaway.jpg" width = "50%" height = "50%">
+						<p>It’s Luxury Week at Ebates!  What better way to celebrate than partnering with Ebates to give away some of my all-time favorite luxury beauty indulgences.   If you haven’t joined Ebates, now’s a great time to join — it’s free to join and free to use. The way Ebates works is you sign-up, and when you shop with Ebates, you can get a percentage of your order total in the form of cash back. They’ll send you a check or pay you via PayPal each quarter! For instance, if you shop at Sephora and spend $50 today, you’ll get $4 in cash back!</p>
+						<a href = "blogPost2.html">continue reading</a>
 					</div>
-				
+					
+					<div class = "blogPost">
+						<h2>Spotlight On: Looks Inspired by Spring Flowers</h2>
+						<img src = "http://www.temptalia.com/images/summer2012/springlooks000.jpg" width = "50%" height = "50%">
+						<p>Check out these ten creative entries from our past makeup challenge, which was all about looks inspired by the flowers of spring! If you’re game to participate in the next one (Disney Villain-inspired looks), you can check it out and send in your submission here–you have until May 1st to submit!</p>
+						<a href = "blogPost5.html">continue reading</a>
+					</div>
+					
 				</div>
+				
 			</div>
 			<!-- <div class = "gird">
 				
@@ -47,19 +58,22 @@
 	<nav class = "grid">
 	
 		<div>
-			<div id = "siteSearch">
-				<form class = "col-1of2">
-					<input type = "search" name = "siteSearch" size = "40" placeholder = "What are you looking for?">
+			<div id = "siteSearch" class = "col-1of2">
+				<form>
+					<input type = "search" name = "siteSearch" value = "What are you looking for?">
 					<a href = "#"><img src = "img/searchIcon.png" alt = "search bar icon"width = "15" height = "15"></a>
 				</form>
+				<div><a href = "shopAccount.html">sign in</a></div>
+				<div><a href = "shopAccount.html">register</a></div>
+				<div><a href = "shopShoppingCart.html">shopping cart</a></div>
 			</div>
 				<ul class = "col-1of2">
 					<li class = "col-1of5"><a href="index.html">Home</a></li>
 					<li class = "col-1of5"><a href="shop.html">Shop</a>
 						<ul>
-							<li><a href = "shop.html">shop by look</a></li>
+							<li><a href = "lookbook.html">shop by look</a></li>
 							<li><a href = "shop.html">shop by category</a></li>
-							<li><a href = "shop.html">shop by brand</a></li>
+							<li><a href = "shopBrand.html">shop by brand</a></li>
 						</ul>
 					</li>
 					<li class = "col-1of5"><a href="blog.html">Blog</a>
@@ -70,14 +84,12 @@
 					</li>
 					<li class = "col-1of5"><a href="lookbook.html">Lookbook</a></li>
 					<li class = "col-1of5"><a href="info.html">Info</a>
-						<ul>
-							<li><a href = "infoContact.html">contact</a></li>
-							<li><a href = "infoLocation.html">location</a></li>
-							<li><a href = "infoCareer.html">career</a></li>
-						</ul>
+			
 					</li>
 				</ul>
 		</div>
 	</nav>
+	<script src = "js/jquery.js"></script>
+	<script src = "js/mobileContent.js"></script>
   </body>
 </html>

@@ -32,6 +32,9 @@
 .col-1of2{
 	width:50%;
 }
+.col-1of1{
+	width:100%;
+}
 .col-1of10{
 	width:10%;
 }
@@ -42,21 +45,23 @@
 	clear:both;
 }
 @media(max-width:960px){
-	.col-1of2, .col-3of4{
+	.col-1of2, .col-3of4  , .col-1of3{
 		width:100%;
 		
 	}
 	
-	.col-1of10, .col-1of5 {
+	.col-1of5{
 		width:50%;
 	}
+	
 	.col-1of4{
 		width: 33.33%;
 	}
+	
 	nav ul ul{
 		display:none;
-	}
 	
+	}
 }
 @media(max-width:680px){
 	.col-1of4{
