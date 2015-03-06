@@ -15,9 +15,10 @@ $(".document").ready(
 		
 		if(width <= 680){
 			$("#gallery").hide();
-			$('<img src="img/slide3.jpg" width = "100%" height = "100%">').insertAfter("nav");
-			$('<img src="img/slide2.jpg" width = "100%" height = "100%">').insertAfter("nav");
-			$('<img src="img/slide1.jpg" width = "100%" height = "100%">').insertAfter("nav");
+			$("#mobileGallery").show();
+			
+		}else{
+			$("#mobileGallery").hide();
 			
 		}
 		

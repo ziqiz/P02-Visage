@@ -20,7 +20,7 @@ body {
 }
 h1, h2, h3, h4{
 	font-family: brandFont, 'Abel', serif;
-
+	
 
 }
 a h4{
@@ -311,16 +311,16 @@ textarea{
 	display:block;
 }
 
-#gallery {
-	width: 100% margin: 0 auto;
-}
+
 	#gallery ul {
-		margin-left:20%;
+		margin-left:25%;
 	}
 		#gallery ul li{
-			list-style: none; display: inline;
+			list-style: none; 
+			display: inline;
 		}
 			#gallery li img{
+				margin:0;
 				padding: 0.5em; 
 				width: 20%; 
 				height: 20%; 
@@ -329,3 +329,10 @@ textarea{
 				opacity: 0.7;
 			
 			}
+
+#lookbook img{
+	padding-right:1em;
+	width:80%;
+	height:80%;
+
+}
