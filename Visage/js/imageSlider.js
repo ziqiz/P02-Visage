@@ -13,7 +13,7 @@ $(document).ready(function() {
 		if(currentImg === image1){
 			console.log("enterA");
 			$("#target").attr("href", "blogPost1.html");
-		}else if(currentImage === image2){
+		}else if(currentImg === image2){
 			console.log("enterB");
 			$("#target").attr("href", "shopProduct3.html");
 			
