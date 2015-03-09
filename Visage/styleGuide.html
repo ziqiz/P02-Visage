@@ -22,7 +22,7 @@
     <section id="buttons">
       <h2>Default Button Style</h2>
       <h3>CSS selector:</h3>
-      <p>buttonLeft or buttonRight</p>
+      <p>.buttonLeft or .buttonRight</p>
       <h3>Sample code:</h3>
       <code>&lt;a href="#"&gt;&lt;div class = "buttonLeft"&gt;Default Button Left&lt;/div&gt;&lt;/a&gt;</code><br>
 	  <code>&lt;a href="#"&gt;&lt;div class = "buttonRight"&gt;Default Button Right&lt;/div&gt;&lt;/a&gt;</code>
@@ -34,7 +34,7 @@
 	<section id="form">
       <h2>Default Form Style</h2>
       <h3>CSS selector:</h3>
-      <p>"div.input"</p>
+      <p>div.input</p>
       <h3>Sample code:</h3>
       <code>&lt;div&gt;First Name:&lt;input type = "text" size = "35" name = "firstName"&gt;&lt;/div&gt;</code>
       <h3>Rendered element:</h3>
@@ -46,25 +46,45 @@
       <h3>CSS selector:</h3>
       <p>img</p>
       <h3>Sample code:</h3>
-      <code>&lt;img src = "img/logo.jpg" alt = "Visage's brand logo" width = "100" height = "100"&gt;</code>
+      <code>&lt;img src = "img/logo.jpg" alt = "introduce product"&gt;</code>
       <h3>Rendered element:</h3>
-      <img src = "img/logo.png" alt = "Visage's brand logo" width = "100" height = "100">
+      <img src = "img/slide1.jpg" alt = "introduce product">
+    </section>
+	
+	<section id="imageLinked">
+      <h2>Default Image With Hyperlink Style</h2>
+      <h3>CSS selector:</h3>
+      <p>a img</p>
+      <h3>Sample code:</h3>
+      <code>&lt;a href = "#"&gt;&lt;img src = "img/logo.jpg" alt = "introduce product"&gt;&lt;/a&gt;</code>
+      <h3>Rendered element:</h3>
+     <a href = "#"> <img src = "img/slide1.jpg" alt = "introduct product"></a>
     </section>
 	
 	<section id="text">
       <h2>Default Text Style</h2>
       <h3>CSS selector:</h3>
-      <p>sction.p</p>
+      <p>p</p>
       <h3>Sample code:</h3>
       <code>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;</code>
       <h3>Rendered element:</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </section>
 	
+	<section id="textLinked">
+      <h2>Default Hyperlink Style</h2>
+      <h3>CSS selector:</h3>
+      <p>a</p>
+      <h3>Sample code:</h3>
+      <code>&lt;a href = "#"&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;&lt;/a&gt;</code>
+      <h3>Rendered element:</h3>
+      <a href = "#"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></a>
+    </section>
+	
 	<section id="navigation">
 	  <h2>Default Navigation Style</h2>
 	  <h3>CSS selector:</h3>
-	  <p>nav.ul.li</p>
+	  <p>nav</p>
 	  <h3>Sample code:</h3>
 	  <code>&lt;nav&gt;&lt;ul&gt;&lt;li&gt;&lt;a href = "#"&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;</code>
 	  <h3>Rendered element:</h3>
@@ -73,6 +93,32 @@
 		  <li><a href="#">Home</a></li>
 		</ul>
 	   </nav>	
+    </section>
+	<section id="sideNavigation">
+	  <h2>Default Side Navigation Style</h2>
+	  <h3>CSS selector:</h3>
+	  <p>#sideNav</p>
+	  <h3>Sample code:</h3>
+	  <code>&lt;div id = "sideNav"&gt;&lt;h4&gt;Title&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;a href = "#"&gt;item&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</code>
+	  <h3>Rendered element:</h3>
+	  <div id = "sideNav">
+		<h4>title</h4>
+		<ul>
+		  <li><a href="#">Item</a></li>
+		</ul>
+	   </div>	
+    </section>
+	
+	<section id="carracells">
+	  <h2>Carracells</h2>
+	  <h3>CSS selector:</h3>
+	  <p>#direction</p>
+	  <h3>Sample code:</h3>
+	  <code>&lt;div id = "direction"&gt;&lt;a href = "#"&gt;Home&lt;/a&gt;>&lt;a href = "#"&gt;Page&lt;/a&gt;&lt;/div&gt;</code>
+	  <h3>Rendered element:</h3>
+	  <div id = "direction">
+		<a href = "#">Home</a> > <a href = "#">Page</a>
+	   </div>	
     </section>
   </body>
 </html>

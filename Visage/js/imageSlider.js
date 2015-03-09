@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	//code reference: http://www.designchemical.com/blog/index.php/jquery/jquery-image-swap-gallery/
     // Image swap on hover
+	
     $("#gallery li img").hover(function(){
         $('#mainImg').attr('src',$(this).attr('src').replace('thumb/', ''));
 		
@@ -22,22 +23,4 @@ $(document).ready(function() {
 			$("#target").attr("href", "shopProduct2.html");
 		}
     });
-    // Image preload
-    /*var imgSwap = [];
-     $("#gallery li img").each(function(){
-        imgUrl = this.src.replace('thumb/', '');
-        imgSwap.push(imgUrl);
-    });
-	
-    $(imgSwap).preload();*/
-	
-	//changing url
-	
-	
 });
-
-$.fn.preload = function() {
-    this.each(function(){
-        $('<img/>')[0].src = this;
-    });
-}
